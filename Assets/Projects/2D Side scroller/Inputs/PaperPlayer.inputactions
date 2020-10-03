@@ -1,0 +1,44 @@
+{
+    "name": "PaperPlayer",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "d9fc7bc3-a7ab-4136-9141-15269c13a44e",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "6c5c85f0-e9e3-4e3b-b655-0cd0c7dfb0fe",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8432029d-c882-4741-ac95-4073651a3729",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "387ca1e6-4d80-4b8b-803d-fe7ee8e07500",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
